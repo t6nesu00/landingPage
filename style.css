@@ -1,0 +1,28 @@
+.top-bar {
+  text-align: right;
+  height: 30px;
+  padding-bottom: 5px;
+  background-color: green;
+}
+.top-bar li {
+  color: white;
+  margin-right: 2px;
+  position: relative;
+  display: inline-block;
+  list-style: none;
+}
+#dropdownMenuButton {
+  padding: 0px;
+  width: 100px;
+  height: 25px;
+  margin-right: 50px;
+  position: relative;
+}
+/* Company log */
+.navbar-brand img {
+  height: 40px;
+  margin-left: 50px;
+}
+.form-inline .my-sm-0 {
+  margin-right: 50px;
+}
