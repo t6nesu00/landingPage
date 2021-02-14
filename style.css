@@ -24,5 +24,34 @@
   margin-left: 50px;
 }
 .form-inline .my-sm-0 {
+  background-color: green;
+  color: white;
   margin-right: 50px;
 }
+
+/* parallax image properties*/
+.parallax-img {
+  background-image: url('./assests/parallax-img.jpg');
+  height: 400px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.parallax-img h2 {
+  color: white; 
+  margin-bottom: 5px;
+  font-size: 50px;
+  font-weight: 100;
+}
+
