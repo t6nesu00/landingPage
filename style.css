@@ -33,11 +33,13 @@
 .parallax-img {
   background-image: url('./assests/parallax-img.jpg');
   height: 400px;
+  filter: brightness(70%);
   /* parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 40px;
 
 }
 
@@ -55,3 +57,58 @@
   font-weight: 100;
 }
 
+.box-nav {
+  color: white;
+  display: inline-block;
+  height: 250px;
+  width: auto;
+}
+
+.row .company {
+  background-image: url(./assests/company1.jpg);
+  filter: brightness(60%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10%;
+}
+.row .product {
+  background-image: url(./assests/product.jpg);
+  filter: brightness(60%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.row .contact {
+  background-image: url(./assests/contact1.png);
+  filter: brightness(60%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  margin-top: 25px;
+  color: white;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.data {
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 100px;
+  padding: 10px;
+}
+.data .data-icon {
+  margin-right: 5px;  
+}
+.data-num {
+    float: right;
+    position: relative;
+}
