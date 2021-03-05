@@ -43,11 +43,18 @@
 
 }
 
-.parallax-img {
+.content {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.45);
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .parallax-img h2 {
@@ -62,9 +69,12 @@
   display: inline-block;
   height: 250px;
   width: auto;
+  position: relative;
 }
 
+
 .row .company {
+  position: relative;
   background-image: url(./assests/company1.jpg);
   filter: brightness(60%);
   display: flex;
@@ -74,7 +84,20 @@
   margin-right: 10px;
   margin-left: 10%;
 }
+.cnav-link {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.65);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .row .product {
+  position: relative;
   background-image: url(./assests/product.jpg);
   filter: brightness(60%);
   display: flex;
@@ -83,7 +106,20 @@
   align-items: center;
   margin-right: 10px;
 }
+.pnav-link {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.65);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .row .contact {
+  position: relative;
   background-image: url(./assests/contact1.png);
   filter: brightness(60%);
   display: flex;
@@ -91,6 +127,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.ctnav-link {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.65);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .number {
   margin-top: 25px;
   color: white;
@@ -98,6 +148,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .data {
   color: black;
   font-size: 20px;
