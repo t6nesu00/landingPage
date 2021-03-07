@@ -141,7 +141,9 @@
   text-align: center;
 }
 
-.number {
+/* style for counters */
+
+.numbers {
   margin-top: 25px;
   color: white;
   display: inline-block;
@@ -154,12 +156,16 @@
   font-size: 20px;
   display: inline-block;
   margin-right: 100px;
-  padding: 10px;
+  padding: 5px;
 }
 .data .data-icon {
-  margin-right: 5px;  
+  padding-top: 10px;
+  float: left; 
 }
 .data-num {
     float: right;
     position: relative;
+    margin-left: 25px;
 }
+
+
