@@ -33,7 +33,7 @@
 .parallax-img {
   background-image: url('./assests/parallax-img.jpg');
   height: 400px;
-  filter: brightness(70%);
+  filter: brightness(100%);
   /* parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -76,7 +76,6 @@
 .row .company {
   position: relative;
   background-image: url(./assests/company1.jpg);
-  filter: brightness(60%);
   display: flex;
   text-align: center;
   justify-content: center;
@@ -99,7 +98,6 @@
 .row .product {
   position: relative;
   background-image: url(./assests/product.jpg);
-  filter: brightness(60%);
   display: flex;
   text-align: center;
   justify-content: center;
@@ -121,7 +119,7 @@
 .row .contact {
   position: relative;
   background-image: url(./assests/contact1.png);
-  filter: brightness(60%);
+  filter: brightness(100%);
   display: flex;
   text-align: center;
   justify-content: center;
@@ -151,6 +149,10 @@
   justify-content: center;
 }
 
+.number {
+  font-size: 30px;
+}
+
 .data {
   color: black;
   font-size: 20px;
@@ -168,4 +170,88 @@
     margin-left: 25px;
 }
 
+/* style for news section */
+.news-section {
+  background-color: #D0CDCD;
+  height: 280px;
+  margin-top: 15px;
+}
+.news-section h4 {
+  display: flex;
+  padding-top: 15px ;
+  justify-content: center;
+}
 
+.news {
+  color: black;
+  display: inline-block;
+  height: 150px;
+  width: auto;
+  position: relative;
+}
+
+.news .news1 {
+  position: relative;
+  display: flex;
+  
+}
+
+.news .news2 {
+  position: relative;
+  display: flex;
+}
+.news .news3 {
+  position: relative;
+  display: flex;
+}
+
+/* styling for references */
+.reference-section h4 {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 30px ;
+  justify-content: center;
+}
+
+.bosch .card-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.body-shop .card-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.laplandHotel .card-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.ikea .card-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* suscription section style */
+.suscribe {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 80%;
+}
