@@ -173,7 +173,7 @@
 /* style for news section */
 .news-section {
   background-color: #D0CDCD;
-  height: 280px;
+  height: 300px;
   margin-top: 15px;
 }
 .news-section h4 {
@@ -182,28 +182,6 @@
   justify-content: center;
 }
 
-.news {
-  color: black;
-  display: inline-block;
-  height: 150px;
-  width: auto;
-  position: relative;
-}
-
-.news .news1 {
-  position: relative;
-  display: flex;
-  
-}
-
-.news .news2 {
-  position: relative;
-  display: flex;
-}
-.news .news3 {
-  position: relative;
-  display: flex;
-}
 
 /* styling for references */
 .reference-section h4 {
